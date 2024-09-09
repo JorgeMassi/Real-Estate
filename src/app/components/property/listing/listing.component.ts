@@ -1,7 +1,7 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Property } from '../../../models/properties/property';
-import { PropertyService } from '../../../services/property-service/property.service';
+import { PropertyService } from '../../../services/property/property.service';
 import { CardsComponent } from '../cards/cards.component';
 import { RouterModule } from '@angular/router';
 
